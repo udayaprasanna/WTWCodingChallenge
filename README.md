@@ -1,4 +1,4 @@
-# WTWCodingChallenge
+# CSV Console application
 
 The project is for comparing a csv file and output the difference.
 
@@ -15,3 +15,7 @@ Steps to run the csv comparision console application:
 4. Enter the File 1 file name.
 5. Enter the File 2 file name.
 6. The comparision tool will create a file with all the differences in the path .\difference\difference_<timestamp>.txt, the data is seperated by '\t'. The contents of the file can be copied to an excel file for better redability.
+
+  # Notepad++ install uninstall powershell scirpt
+  The NPPInstallUninstall.ps1 power shell script will check if the installation file from a remote location is the latest version, uninstall the current version if the latest version is found and install the latest version from the remote folder.
+  
