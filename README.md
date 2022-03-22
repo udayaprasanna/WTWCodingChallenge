@@ -20,7 +20,7 @@ Steps to run the csv comparision console application:
   The NPPInstallUninstall.ps1 power shell script will check if the installation file from a remote location is the latest version, uninstall the current version if the latest version is found and install the latest version from the remote folder.
   
   Prerequisite:
-  1. A window machine with administrator privledges.
+  1. A windows machine with administrator privledges.
   2. Remote folder with Notepad++ installer file with the same name as downloaded from the https://notepad-plus-plus.org/.
   
   Steps to run the powershell script
