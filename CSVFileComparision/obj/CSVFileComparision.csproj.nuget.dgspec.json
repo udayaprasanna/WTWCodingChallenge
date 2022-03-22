@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\udaya\\OneDrive\\Documents\\GitHub\\WTWCodingChallenge\\CSVFileComparision\\CSVFileComparision.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\udaya\\OneDrive\\Documents\\GitHub\\WTWCodingChallenge\\CSVFileComparision\\CSVFileComparision.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\udaya\\OneDrive\\Documents\\GitHub\\WTWCodingChallenge\\CSVFileComparision\\CSVFileComparision.csproj",
+        "projectName": "CSVFileComparision",
+        "projectPath": "C:\\Users\\udaya\\OneDrive\\Documents\\GitHub\\WTWCodingChallenge\\CSVFileComparision\\CSVFileComparision.csproj",
+        "packagesPath": "C:\\Users\\udaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\udaya\\OneDrive\\Documents\\GitHub\\WTWCodingChallenge\\CSVFileComparision\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\udaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
