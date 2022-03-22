@@ -1,5 +1,9 @@
+param(
+[parameter(mandatory=$true)]
+[string]$RemoteInstallerFileLocation
+)
 #cmdlets to get the filename and version of the notepad++ installer in remote folder
-$RemoteInstallerFileLocation = "C:\npp"
+ "Please enter the remote folder with NPP installer: "
 $SystemArchitecture = If((gwmi win32_operatingsystem | select osarchitecture).osarchitecture -eq "64-bit") {"64"} else {"32"}
 $NPPInstallerFN = (Get-ChildItem $RemoteInstallerFileLocation -File -recurse | Where{$_.Name -match $SystemArchitecture}).Name
 $RemoteNPPVersion = $NPPInstallerFN.Substring(4,$NPPInstallerFN.IndexOf(".Installer")-4)
