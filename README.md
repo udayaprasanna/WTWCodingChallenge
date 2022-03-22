@@ -1,4 +1,4 @@
-# WTWCodingChallenge
+# CSV Console application
 
 The project is for comparing a csv file and output the difference.
 
@@ -15,3 +15,16 @@ Steps to run the csv comparision console application:
 4. Enter the File 1 file name.
 5. Enter the File 2 file name.
 6. The comparision tool will create a file with all the differences in the path .\difference\difference_<timestamp>.txt, the data is seperated by '\t'. The contents of the file can be copied to an excel file for better redability.
+
+  # Notepad++ install uninstall powershell scirpt
+  The NPPInstallUninstall.ps1 power shell script will check if the installation file from a remote location is the latest version, uninstall the current version if the latest version is found and install the latest version from the remote folder.
+  
+  Prerequisite:
+  1. A window machine with administrator privledges.
+  2. Remote folder with Notepad++ installer file with the same name as downloaded from the https://notepad-plus-plus.org/.
+  
+  Steps to run the powershell script
+  1. Open powershell as an administrator
+  2. Navigate to the folder where the NPPInstallUninstall.ps1 script is saved.
+  3. Execute the command NPPInstallUninstall.ps1 -RemoteInstallerFileLocation '<Notepad installer remote file path>'
+  
